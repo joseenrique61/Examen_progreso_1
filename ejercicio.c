@@ -2,10 +2,10 @@
 #include <stdio.h>
 
 //Se declaran las variables a usar.
-int numerosPositivos = 0;
-int numerosNegativos = 0;
-int ceros = 0;
-int count = 0;
+float numerosPositivos = 0;
+float numerosNegativos = 0;
+float ceros = 0;
+float count = 0;
 
 void ObtenerNumeros(int cantidadNumeros);
 
@@ -27,7 +27,7 @@ int main()
 void ObtenerNumeros(int cantidadNumeros)
 {
     int numeros[3];
-    for (int i = 0; i < cantidadNumeros; i++)
+    for (; count < cantidadNumeros; count++)
     {
         int numero = 0;
         scanf("%i", &numero);
